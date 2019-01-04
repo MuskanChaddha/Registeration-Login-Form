@@ -1,0 +1,67 @@
+<?php include('server.php')?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet"> 
+	<title>User Registeration System using PHP and MYSQL</title>
+    <link rel = "stylesheet"type = "text/css"href = "style.css">
+</head>
+
+
+<body>
+  <div class="header">
+    <h2>Login</h2>
+  </div>
+     
+   <!--if we apply action then the username password email and contents are shown  -->
+          
+  <form method="post" action="login.php">
+    <?php include('errors.php'); ?>
+    <div class="input-group">
+        <label>Username</label>
+        <input type="text" name="username" >
+    </div>
+    <div class="input-group">
+        <label>Password</label>
+        <input type="password" name="password">
+    </div>
+    <div class="input-group">
+        <button type="submit" class="btn" name="login">Login</button>
+    </div>
+    <p>
+        Not yet a member? <a href="register.php">Sign up</a>
+    </p>
+  </form>
+
+<!--
+  <body>
+        <div class="header">
+        	<strong><h1>Login Form</h1></strong>
+        </div>
+
+        <form method="post" action="login.php">
+            
+        	<div class="input-group">
+        		<label>Username :</label>
+        		<input type="text" name="username">
+        	</div>
+        	
+
+        	<div class="input-group">
+        		<label>Password :</label>
+        		<input type="text" name="password_1">
+        	</div>
+
+        	
+
+        	<div class="input-group">
+        	 <button type="submit" name="register" class="login">Login </button>	
+        	</div>
+
+        	<p>
+        		Not Yet a member ? <a href="register.php">Sign up</a>
+        	</p>
+        -->
+</body>
+</html>
