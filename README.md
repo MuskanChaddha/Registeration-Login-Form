@@ -1,6 +1,5 @@
 # Registeration-Login-Form
-->Data saved In Database 
-->User Can Login and Register too
+
 
 # Make Sure that You have Installed XAMPP or TOMCAT server to run php 
 -> Save the Php document in the htdocs path like this  C:\xampp\htdocs
